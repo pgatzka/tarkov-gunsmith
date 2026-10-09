@@ -49,7 +49,7 @@ Goal: all weapons, mods, traders and offers from json.tarkov.dev are in Postgres
   - What: imports trader cash offers that are not quest-locked (with `minTraderLevel`) and flea prices (`lastLowPrice`, falling back to `avg24hPrice`; `noFlea` items are skipped), per mode.
   - Depends: 1.2
   - Done when: an MP5 receiver has the expected trader and flea offers for both PvP and PvE in a test.
-- [x] **1.4 Scheduled sync** — 2026-10-09
+- [x] **1.4 Scheduled sync** — 2026-10-09, [#8](https://github.com/pgatzka/tarkov-gunsmith/pull/8)
   - What: `DataSync` job that runs every 10 minutes and on startup. It upserts items, offers and prices, and logs what changed.
   - Depends: 1.3
   - Done when: a second sync with unchanged data does no writes (304 / no-op), and changed prices are updated.
