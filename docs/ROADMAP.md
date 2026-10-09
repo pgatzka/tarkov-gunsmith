@@ -24,7 +24,7 @@ Goal: the empty skeleton runs with one `docker compose up`.
   - What: React + Vite + TypeScript in `frontend/`, with ESLint/Prettier, a router and an API client stub. The dev proxy points to the backend.
   - Depends: —
   - Done when: `npm run build` and `npm run lint` pass, and the dev server shows a placeholder page.
-- [x] **0.3 Docker Compose** — 2026-10-09
+- [x] **0.3 Docker Compose** — 2026-10-09, [#3](https://github.com/pgatzka/tarkov-gunsmith/pull/3)
   - What: `docker-compose.yml` with postgres, backend (Dockerfile), and frontend served by nginx with `/api` proxied to the backend. Adds `.env.example` and a README section explaining how to run it.
   - Depends: 0.1, 0.2
   - Done when: `docker compose up --build` serves the placeholder page, and `/api/actuator/health` returns UP through nginx.
