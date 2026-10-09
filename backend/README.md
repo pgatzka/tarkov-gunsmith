@@ -139,3 +139,37 @@ Recoil and weight match for all 395.
 
 `./gradlew liveTest` includes `PresetStatsLiveTest`, which runs the same check against the current
 live data, e.g. after a game patch.
+
+## Build generator
+
+`com.tarkovgunsmith.engine.BuildGenerator.generate(weapon, random)` returns one random valid
+`Build` of a weapon (SPEC §4.1). It walks the slot tree depth-first from the weapon. Each slot gets
+a candidate picked uniformly, and an optional slot can also stay empty, which is one more equally
+likely option. A candidate that conflicts with a part already chosen (`Conflicts`) is skipped. A
+chosen part's own slots are decided right after it. When a required slot has nothing left to try,
+the walk backtracks to the previous slot and tries its next option.
+
+Two limits keep a walk finite. Parts sit at most `MAX_DEPTH` (10) slots below the weapon: mounts
+that take mounts could otherwise nest forever, and real builds don't come close. A walk also gives
+up after 10,000 slot decisions and starts over, up to 10 times. If a walk exhausts every option
+without running out of steps, no valid build exists and the result is empty. The generator is
+stateless and thread-safe; give each thread its own random.
+
+A `Build` lists its parts in tree order, starting with the weapon. Each part has a slot path made
+of the slot `nameId`s from the weapon down, joined by `/`
+(e.g. `mod_reciever/mod_handguard`); the weapon's path is `""`. `partsHash` is the
+canonical dedup key: SHA-256 (hex) over the sorted `(slotPath, itemId)` pairs, weapon included.
+`stats` comes from `StatCalculator`.
+
+`BuildGeneratorIT` generates 10,000 builds for each of the 161 weapons and checks every build
+independently of the generator (`BuildCheck`). In each build:
+
+- every required slot is filled, recursively;
+- every part is a candidate of its slot, and the slot belongs to the parent part;
+- slot paths are unique;
+- there are no conflicts;
+- the hash and stats match the parts.
+
+It runs on `src/test/resources/tarkovdev/all-guns/`: every gun and mod recorded from
+`/regular/items`, with stat, slot and conflict fields only. `items.json` is gzipped (3.3 MB raw).
+Every weapon produces valid builds. The run takes about 12 s for 1.61M builds on 4 cores.
