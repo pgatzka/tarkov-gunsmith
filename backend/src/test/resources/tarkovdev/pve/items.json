@@ -1,0 +1,1884 @@
+{
+  "data": {
+    "items": {
+      "5926bb2186f7744b1c6c6e60": {
+        "id": "5926bb2186f7744b1c6c6e60",
+        "name": "5926bb2186f7744b1c6c6e60 Name",
+        "shortName": "5926bb2186f7744b1c6c6e60 ShortName",
+        "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
+        "description": "5926bb2186f7744b1c6c6e60 Description",
+        "updated": "2026-10-09T09:38:07.000Z",
+        "width": 1,
+        "height": 1,
+        "weight": 1.21,
+        "lastOfferCount": 15,
+        "types": [
+          "gun",
+          "wearable"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_submachine_gun_(Navy_3_Round_Burst)",
+        "link": "https://tarkov.dev/item/hk-mp5-9x19-submachine-gun-navy-3-round-burst",
+        "iconLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-8x.webp",
+        "containsItems": [
+          {
+            "item": "5926c3b286f774640d189b6b",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c0df86f77462f647f764",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c36d86f77467a92a8629",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926d2be86f774134d668e4e",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926d3c686f77410de68ebc8",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926e16e86f7742f5a0f7ecb",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c32286f774616e42de99",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 12132,
+        "categories": [
+          "5447b5e04bdc2d62278b4567",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f796a86f774093f2ed3c0",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 16767,
+        "avg24hPrice": 95215,
+        "low24hPrice": 16767,
+        "high24hPrice": 444444,
+        "changeLast48h": 1440,
+        "changeLast48hPercent": 1.54,
+        "lastScan": "2026-10-09T09:28:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber9x19PARA",
+          "ergonomics": 50,
+          "recoilVertical": 56,
+          "recoilHorizontal": 275,
+          "repairCost": 250,
+          "fireRate": 800,
+          "effectiveDistance": 200,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.2,
+          "deviationCurve": 3.5,
+          "deviationMax": 7.5,
+          "recoilDispersion": 8,
+          "recoilAngle": 90,
+          "cameraSnap": 3.5,
+          "slots": [
+            {
+              "id": "5926bb2186f7744b1c6c6e62",
+              "nameId": "mod_magazine",
+              "required": false,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5d2f213448f0355009199284",
+                  "5926c3b286f774640d189b6b",
+                  "5a351711c4a282000b1521a4"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MAGAZINE"
+            },
+            {
+              "id": "5926bb2186f7744b1c6c6e63",
+              "nameId": "mod_reciever",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926f2e086f7745aae644231",
+                  "5926c0df86f77462f647f764"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_RECIEVER"
+            },
+            {
+              "id": "5926bb2186f7744b1c6c6e65",
+              "nameId": "mod_charge",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926c32286f774616e42de99"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_CHARGE"
+            }
+          ],
+          "defaultPreset": "59411aa786f7747aeb37f9a5",
+          "fireModes": [
+            "single",
+            "burst",
+            "fullauto"
+          ],
+          "presets": [
+            "59411aa786f7747aeb37f9a5",
+            "59411abb86f77478f702b5d2",
+            "618aafe23c1dcf601e0327db",
+            "707265736574000000000023",
+            "707265736574000000000066",
+            "707265736574000000000078",
+            "707265736574000000000084"
+          ],
+          "defaultWidth": 3,
+          "defaultHeight": 2,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "64b7bbb74b75259c590fa897"
+        },
+        "minLevelForFlea": 20,
+        "maxDurability": 100,
+        "ergonomicsModifier": 50,
+        "stackMaxSize": 1,
+        "velocity": 13,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "59411aa786f7747aeb37f9a5": {
+        "id": "59411aa786f7747aeb37f9a5",
+        "name": "59411aa786f7747aeb37f9a5 Name",
+        "shortName": "59411aa786f7747aeb37f9a5 ShortName",
+        "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-default",
+        "updated": "2026-10-09T09:38:07.000Z",
+        "width": 3,
+        "height": 2,
+        "weight": 2.71,
+        "lastOfferCount": 7,
+        "types": [
+          "preset"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_submachine_gun_(Navy_3_Round_Burst)",
+        "link": "https://tarkov.dev/item/hk-mp5-9x19-submachine-gun-navy-3-round-burst-default",
+        "iconLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/59411aa786f7747aeb37f9a5-8x.webp",
+        "containsItems": [
+          {
+            "item": "5926bb2186f7744b1c6c6e60",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c3b286f774640d189b6b",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c0df86f77462f647f764",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c36d86f77467a92a8629",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926d2be86f774134d668e4e",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926d3c686f77410de68ebc8",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926e16e86f7742f5a0f7ecb",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "5926c32286f774616e42de99",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 41548,
+        "categories": [
+          "5447b5e04bdc2d62278b4567",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f796a86f774093f2ed3c0",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 70000,
+        "avg24hPrice": 93390,
+        "low24hPrice": 59990,
+        "high24hPrice": 110000,
+        "changeLast48h": 3049,
+        "changeLast48hPercent": 3.38,
+        "lastScan": "2026-10-09T09:28:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesPreset",
+          "ergonomics": 72,
+          "recoilVertical": 43,
+          "recoilHorizontal": 209,
+          "moa": 6.89,
+          "default": true,
+          "baseItem": "5926bb2186f7744b1c6c6e60"
+        },
+        "minLevelForFlea": 20,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 340,
+            "priceRUB": 58545,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 1,
+            "taskUnlock": null,
+            "restockAmount": 770000,
+            "buyLimit": 5
+          }
+        ]
+      },
+      "5926c0df86f77462f647f764": {
+        "id": "5926c0df86f77462f647f764",
+        "name": "5926c0df86f77462f647f764 Name",
+        "shortName": "5926c0df86f77462f647f764 ShortName",
+        "normalizedName": "hk-mp5-9x19-upper-receiver",
+        "description": "5926c0df86f77462f647f764 Description",
+        "updated": "2026-10-09T09:28:07.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.544,
+        "lastOfferCount": 1,
+        "types": [
+          "mods"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_upper_receiver",
+        "link": "https://tarkov.dev/item/hk-mp5-9x19-upper-receiver",
+        "iconLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5926c0df86f77462f647f764-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 3270,
+        "categories": [
+          "55818a304bdc2db5418b457d",
+          "55802f4a4bdc2ddb688b4569",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f764186f77447ec5d7714",
+          "5b5f75b986f77447ec5d7710",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": 25774,
+        "avg24hPrice": 41129,
+        "low24hPrice": 25774,
+        "high24hPrice": 44444,
+        "changeLast48h": 1068,
+        "changeLast48hPercent": 2.67,
+        "lastScan": "2026-10-09T09:18:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeaponMod",
+          "ergonomics": 5,
+          "recoilModifier": 0,
+          "accuracyModifier": 0,
+          "slots": [
+            {
+              "id": "5926c0df86f77462f647f767",
+              "nameId": "mod_handguard",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5a9548c9159bd400133e97b3",
+                  "5d010d1cd7ad1a59283b1ce7",
+                  "5926c36d86f77467a92a8629",
+                  "5d19cd96d7ad1a4a992c9f52"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_HANDGUARD"
+            },
+            {
+              "id": "5926c0df86f77462f647f768",
+              "nameId": "mod_sight_rear",
+              "required": false,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926d2be86f774134d668e4e"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_SIGHT_REAR"
+            },
+            {
+              "id": "5926c1c786f774641f04af45",
+              "nameId": "mod_stock",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926d3c686f77410de68ebc8",
+                  "5926d40686f7740f152b6b7e",
+                  "5c07c9660db834001a66b588"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_STOCK"
+            },
+            {
+              "id": "5926df9986f7742f6356f504",
+              "nameId": "mod_muzzle",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926e16e86f7742f5a0f7ecb",
+                  "5c0000c00db834001a6697fc"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MUZZLE"
+            },
+            {
+              "id": "5926dfdc86f7742eb80708a0",
+              "nameId": "mod_mount",
+              "required": false,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5926dad986f7741f82604363",
+                  "5a966ec8a2750c00171b3f36"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MOUNT"
+            }
+          ],
+          "heatFactor": 0.969,
+          "coolingFactor": 1.0815,
+          "increaseSizeForced": false,
+          "increaseSize": {
+            "left": 1
+          }
+        },
+        "minLevelForFlea": 0,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "ergonomicsModifier": 5,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "blue",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 36,
+            "priceRUB": 6144,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 1,
+            "taskUnlock": null,
+            "restockAmount": 770000,
+            "buyLimit": 5
+          }
+        ]
+      },
+      "5926c3b286f774640d189b6b": {
+        "id": "5926c3b286f774640d189b6b",
+        "name": "5926c3b286f774640d189b6b Name",
+        "shortName": "5926c3b286f774640d189b6b ShortName",
+        "normalizedName": "hk-mp5-9x19-30-round-magazine",
+        "description": "5926c3b286f774640d189b6b Description",
+        "updated": "2026-10-09T10:48:05.000Z",
+        "width": 1,
+        "height": 2,
+        "weight": 0.17,
+        "lastOfferCount": 2,
+        "types": [
+          "mods"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_30-round_magazine",
+        "link": "https://tarkov.dev/item/hk-mp5-9x19-30-round-magazine",
+        "iconLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5926c3b286f774640d189b6b-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 4010,
+        "categories": [
+          "5448bc234bdc2d3c308b4569",
+          "55802f3e4bdc2de7118b4584",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f754a86f774094242f19b",
+          "5b5f750686f774093e6cb503",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": 15000,
+        "avg24hPrice": 40959,
+        "low24hPrice": 7561,
+        "high24hPrice": 151111,
+        "changeLast48h": 22465,
+        "changeLast48hPercent": 121.47,
+        "lastScan": "2026-10-09T08:38:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesMagazine",
+          "ergonomics": -1,
+          "recoilModifier": 0,
+          "accuracyModifier": 0,
+          "slots": [],
+          "capacity": 30,
+          "loadModifier": 0,
+          "ammoCheckModifier": 0,
+          "malfunctionChance": 0.03,
+          "increaseSizeForced": false,
+          "increaseSize": {
+            "down": 1
+          }
+        },
+        "minLevelForFlea": 25,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "ergonomicsModifier": -1,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "yellow",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 44,
+            "priceRUB": 7534,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 1,
+            "taskUnlock": null,
+            "restockAmount": 770000,
+            "buyLimit": 10
+          }
+        ]
+      },
+      "55d35ee94bdc2d61338b4568": {
+        "id": "55d35ee94bdc2d61338b4568",
+        "name": "55d35ee94bdc2d61338b4568 Name",
+        "shortName": "55d35ee94bdc2d61338b4568 ShortName",
+        "normalizedName": "ar-15-556x45-103-inch-barrel",
+        "description": "55d35ee94bdc2d61338b4568 Description",
+        "updated": "2026-10-09T11:08:05.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.409,
+        "lastOfferCount": 2,
+        "types": [
+          "mods"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_5.56x45_10.3_inch_barrel",
+        "link": "https://tarkov.dev/item/ar-15-556x45-103-inch-barrel",
+        "iconLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/55d35ee94bdc2d61338b4568-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 19118,
+        "categories": [
+          "555ef6e44bdc2de9068b457e",
+          "55802f4a4bdc2ddb688b4569",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f75c686f774094242f19f",
+          "5b5f75b986f77447ec5d7710",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": 40000,
+        "avg24hPrice": 37982,
+        "low24hPrice": 29998,
+        "high24hPrice": 50000,
+        "changeLast48h": -869,
+        "changeLast48hPercent": -2.24,
+        "lastScan": "2026-10-09T10:58:03.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesBarrel",
+          "ergonomics": -2,
+          "recoilModifier": -0.052000000000000005,
+          "accuracyModifier": 0,
+          "slots": [
+            {
+              "id": "564afddf4bdc2d1b2b8b4592",
+              "nameId": "mod_muzzle",
+              "required": false,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5b3a16655acfc40016387a2a",
+                  "5c7e5f112e221600106f4ede",
+                  "5c0fafb6d174af02a96260ba",
+                  "612e0cfc8004cc50514c2d9e",
+                  "5cf6937cd7f00c056c53fb39",
+                  "544a38634bdc2d58388b4568",
+                  "5cff9e5ed7ad1a09407397d4",
+                  "5c48a2a42e221602b66d1e07",
+                  "5f6372e2865db925d54f3869",
+                  "615d8e2f1cb55961fa0fd9a4",
+                  "56ea8180d2720bf2698b456a",
+                  "5d02676dd7ad1a049e54f6dc",
+                  "56ea6fafd2720b844b8b4593",
+                  "5943ee5a86f77413872d25ec",
+                  "609269c3b0e443224b421cc1",
+                  "5c7fb51d2e2216001219ce11",
+                  "5ea172e498dacb342978818e",
+                  "5c6d710d2e22165df16b81e7",
+                  "612e0e55a112697a4b3a66e7",
+                  "5d440625a4b9361eec4ae6c5",
+                  "5cc9b815d7f00c000e2579d6",
+                  "5a7c147ce899ef00150bd8b8",
+                  "5c7954d52e221600106f4cc7",
+                  "59bffc1f86f77435b128b872",
+                  "5a9fbb84a2750c00137fa685",
+                  "626667e87379c44d557b7550",
+                  "62669bccdb9ebb4daa44cd14",
+                  "626a74340be03179a165e30c",
+                  "6386120cd6baa055ad1e201c",
+                  "63ac5c9658d0485fc039f0b8",
+                  "6405ff6bd4578826ec3e377a",
+                  "64943b74e9998d641b0412ed",
+                  "6621455e3aceea9e2b0b01e7",
+                  "664301213dd83ddae20dda18",
+                  "68caac500bfe742288085e1e",
+                  "68a63b03e1fb670852024656",
+                  "68c294b9eb59c46bf6070536",
+                  "6a3cea96194a2625b40c863d",
+                  "6a6880680934ae00be0d5f9a"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MUZZLE"
+            },
+            {
+              "id": "56ea8e15d2720bf2698b456b",
+              "nameId": "mod_gas_block",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e",
+                  "68c16f6883e2d814b0093f7a"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_GAS_BLOCK"
+            }
+          ],
+          "centerOfImpact": 0.07,
+          "deviationCurve": 1.4,
+          "deviationMax": 22,
+          "durabilityBurnFactor": 0.83,
+          "heatFactor": 1.06,
+          "coolingFactor": 1.09,
+          "increaseSizeForced": false,
+          "increaseSize": {
+            "left": 2
+          }
+        },
+        "minLevelForFlea": 0,
+        "accuracyModifier": 0,
+        "recoilModifier": -5.2,
+        "ergonomicsModifier": -2,
+        "stackMaxSize": 1,
+        "velocity": -11,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "blue",
+        "conflictingItems": [
+          "68a63cdac92ee33ffa01bf5f",
+          "68a63cb3e1fb670852024664",
+          "68a63cc0c92ee33ffa01bf5c"
+        ],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 209,
+            "priceRUB": 35919,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 3,
+            "taskUnlock": null,
+            "restockAmount": 770000,
+            "buyLimit": 3
+          }
+        ]
+      },
+      "5dff772da3651922b360bf91": {
+        "id": "5dff772da3651922b360bf91",
+        "name": "5dff772da3651922b360bf91 Name",
+        "shortName": "5dff772da3651922b360bf91 ShortName",
+        "normalizedName": "vomz-pilad-4x32-254mm-riflescope",
+        "description": "5dff772da3651922b360bf91 Description",
+        "updated": "2026-10-09T10:38:06.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.31,
+        "lastOfferCount": 11,
+        "types": [
+          "mods"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOMZ_Pilad_4x32_25.4mm_riflescope",
+        "link": "https://tarkov.dev/item/vomz-pilad-4x32-254mm-riflescope",
+        "iconLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5dff772da3651922b360bf91-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 14468,
+        "categories": [
+          "55818ae44bdc2dde698b456c",
+          "5448fe7a4bdc2d6f028b456b",
+          "550aa4154bdc2dd8348b456b",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f748386f774093e6cb501",
+          "5b5f73ec86f774093e6cb4fd",
+          "5b5f71b386f774093f2ecf11",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": 9500,
+        "avg24hPrice": 9435,
+        "low24hPrice": 4900,
+        "high24hPrice": 12000,
+        "changeLast48h": -2703,
+        "changeLast48hPercent": -22.27,
+        "lastScan": "2026-10-09T10:28:07.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesScope",
+          "ergonomics": -4,
+          "recoilModifier": 0,
+          "accuracyModifier": 0,
+          "slots": [],
+          "zoomLevels": [
+            [
+              4
+            ]
+          ],
+          "sightingRange": 800,
+          "sightModes": [
+            1
+          ],
+          "zeroingDistances": [
+            [
+              50,
+              100,
+              150,
+              200,
+              250,
+              300
+            ]
+          ]
+        },
+        "minLevelForFlea": 25,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "ergonomicsModifier": -4,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "blue",
+        "conflictingItems": [
+          "591c4efa86f7741030027726",
+          "570fd79bd2720bc7458b4583",
+          "570fd6c2d2720bc6458b457f",
+          "558022b54bdc2dac148b458d",
+          "58491f3324597764bc48fa02",
+          "584924ec24597768f12ae244",
+          "5b30b0dc5acfc400153b7124",
+          "60a23797a37c940de7062d02",
+          "5d2da1e948f035477b1ce2ba",
+          "5c0505e00db834001b735073",
+          "609a63b6e2ff132951242d09",
+          "584984812459776a704a82a6",
+          "59f9d81586f7744c7506ee62",
+          "570fd721d2720bc5458b4596",
+          "5bb20e49d4351e3bac1212de",
+          "5ba26b17d4351e00367f9bdd",
+          "5dfa3d7ac41b2312ea33362a",
+          "5c1780312e221602b66cc189",
+          "5fb6564947ce63734e3fa1da",
+          "5bc09a18d4351e003562b68e",
+          "5c18b9192e2216398b5a8104",
+          "5fc0fa957283c4046c58147e",
+          "5894a81786f77427140b8347",
+          "64785e7c19d732620e045e15",
+          "6165ac8c290d254f5e6b2f6c",
+          "6477772ea8a38bb2050ed4db"
+        ],
+        "conflictingSlotIds": [
+          "5c7d55f52e221644f31bff6c"
+        ],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5c0647fdd443bc2504c2d371",
+            "price": 18954,
+            "priceRUB": 18954,
+            "currency": "RUB",
+            "currencyItem": "5449016a4bdc2d6f028b456f",
+            "minTraderLevel": 1,
+            "taskUnlock": null,
+            "restockAmount": 1950000,
+            "buyLimit": 5
+          }
+        ]
+      },
+      "66b5f69ea7f72d197e70bcdb": {
+        "id": "66b5f69ea7f72d197e70bcdb",
+        "name": "66b5f69ea7f72d197e70bcdb Name",
+        "shortName": "66b5f69ea7f72d197e70bcdb ShortName",
+        "normalizedName": "tw-exfil-peltor-comtac-v-headset-od-green",
+        "description": "66b5f69ea7f72d197e70bcdb Description",
+        "updated": "2026-10-09T10:18:07.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.395,
+        "lastOfferCount": 23,
+        "types": [
+          "headphones",
+          "wearable"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TW_EXFIL_Peltor_ComTac_V_headset_(OD_Green)",
+        "link": "https://tarkov.dev/item/tw-exfil-peltor-comtac-v-headset-od-green",
+        "iconLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/66b5f69ea7f72d197e70bcdb-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 61308,
+        "categories": [
+          "5645bcb74bdc2ded0b8b4578",
+          "543be5f84bdc2dd4348b456a",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f6f3c86f774094242ef87",
+          "5b47574386f77428ca22b33f"
+        ],
+        "lastLowPrice": 44444,
+        "avg24hPrice": 53306,
+        "low24hPrice": 34000,
+        "high24hPrice": 100000,
+        "changeLast48h": -4891,
+        "changeLast48hPercent": -8.4,
+        "lastScan": "2026-10-09T10:08:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesHeadphone",
+          "ambientVolume": -50,
+          "compressorAttack": 20,
+          "compressorGain": 3,
+          "compressorRelease": 140,
+          "compressorThreshold": -23,
+          "distanceModifier": 1.115,
+          "distortion": 0.1,
+          "dryVolume": -60
+        },
+        "minLevelForFlea": 0,
+        "blocksHeadphones": true,
+        "stackMaxSize": 1,
+        "hasGrid": false,
+        "backgroundColor": "default",
+        "conflictingItems": [
+          "5a16badafcdbcb001865f72d",
+          "5aa2b9ede5b5b000137b758b",
+          "5645bc214bdc2d363b8b4571",
+          "5aa7e276e5b5b000171d0647",
+          "5df8a58286f77412631087ed",
+          "59e7711e86f7746cae05fbe1",
+          "5aa7d193e5b5b000171d063f",
+          "5aa7e454e5b5b0214e506fa2",
+          "5aa7e4a4e5b5b000137b76f2",
+          "5b4329f05acfc47a86086aa1",
+          "68a9a92b838d65bcb3050176",
+          "68a9a85c3e1ee5a70504c12e",
+          "66bdc28a0b603c26902b2011",
+          "5d6d3716a4b9361bc8618872",
+          "5c091a4e0db834001d5addc8",
+          "5c0e874186f7745dc7616606",
+          "6759af0f9c8a538dd70bfae6",
+          "5c0d2727d174af02a012cf58",
+          "5f60c74e3b85f6263c145586",
+          "5c08f87c0db8340019124324",
+          "5c06c6a80db834001b735491",
+          "5ca20ee186f774799474abc2",
+          "68a987a1609a5cb2120ebd2f",
+          "68a986ca5c0073fa2d0d8cb8",
+          "68a98762609a5cb2120ebd26",
+          "59ef13ca86f77445fd0e2483",
+          "59e7708286f7742cbd762753",
+          "5e01f31d86f77465cf261343",
+          "5e00cfa786f77469dc6e5685",
+          "5c178a942e22164bef5ceca3",
+          "5c1793902e221602b21d3de2",
+          "6570a88c8f221f3b210353b7",
+          "68a9c0ed6d47c49b700faaf9",
+          "68a9bf7d9f4c45817b0d83b6",
+          "5aa2b89be5b5b0001569311f",
+          "5ab8f20c86f7745cdb629fb2",
+          "5a16b9fffcdbcb0176308b34",
+          "66b5f6a28ca68c6461709ed8",
+          "69413241b1ce1e5fbb09ed0a",
+          "69c264c00f660b3f0d058fcf",
+          "69c26593ea474c30ad069f8f",
+          "68bf405779c8186398099017"
+        ],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [
+          "5a341c4686f77469e155819e"
+        ],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 670,
+            "priceRUB": 115187,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 4,
+            "taskUnlock": null,
+            "restockAmount": 775000,
+            "buyLimit": 5
+          }
+        ]
+      },
+      "5c0558060db834001b735271": {
+        "id": "5c0558060db834001b735271",
+        "name": "5c0558060db834001b735271 Name",
+        "shortName": "5c0558060db834001b735271 ShortName",
+        "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
+        "description": "5c0558060db834001b735271 Description",
+        "updated": "2025-12-03T12:34:05.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.88,
+        "lastOfferCount": 9,
+        "types": [
+          "mods",
+          "noFlea",
+          "wearable"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/L3Harris_GPNVG-18_night_vision_goggles",
+        "link": "https://tarkov.dev/item/l3harris-gpnvg-18-night-vision-goggles",
+        "iconLink": "https://assets.tarkov.dev/5c0558060db834001b735271-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5c0558060db834001b735271-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5c0558060db834001b735271-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5c0558060db834001b735271-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5c0558060db834001b735271-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5c0558060db834001b735271-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 145004,
+        "categories": [
+          "5a2c3a9486f774688b05e574",
+          "55818aeb4bdc2ddc698b456a",
+          "5448fe7a4bdc2d6f028b456b",
+          "550aa4154bdc2dd8348b456b",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f749986f774094242f199",
+          "5b5f73ec86f774093e6cb4fd",
+          "5b5f71b386f774093f2ecf11",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T10:36:20.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesNightVision",
+          "intensity": 2.4,
+          "noiseIntensity": 0.02,
+          "noiseScale": 5,
+          "diffuseIntensity": 0.03,
+          "zeroingDistances": [
+            [
+              50,
+              100,
+              150,
+              200
+            ]
+          ]
+        },
+        "minLevelForFlea": 25,
+        "accuracyModifier": 0,
+        "recoilModifier": 0,
+        "ergonomicsModifier": 0,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "default",
+        "conflictingItems": [
+          "5a16b672fcdbcb001912fa83",
+          "5a16b7e1fcdbcb00165aa6c9",
+          "5e00cdd986f7747473332240",
+          "5e01f37686f774773c6f6c15"
+        ],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "5935c25fb3acc3127c3d8cd9",
+            "price": 1822,
+            "priceRUB": 313298,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 4,
+            "taskUnlock": null,
+            "restockAmount": 770000,
+            "buyLimit": 1
+          }
+        ]
+      },
+      "56eabf3bd2720b75698b4569": {
+        "id": "56eabf3bd2720b75698b4569",
+        "name": "56eabf3bd2720b75698b4569 Name",
+        "shortName": "56eabf3bd2720b75698b4569 ShortName",
+        "normalizedName": "ar-15-magpul-moe-carbine-stock-black",
+        "description": "56eabf3bd2720b75698b4569 Description",
+        "updated": "2026-10-09T11:08:05.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.226,
+        "lastOfferCount": 2,
+        "types": [
+          "mods"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Magpul_MOE_Carbine_stock",
+        "link": "https://tarkov.dev/item/ar-15-magpul-moe-carbine-stock-black",
+        "iconLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/56eabf3bd2720b75698b4569-8x.webp",
+        "containsItems": [],
+        "discardLimit": -1,
+        "basePrice": 8719,
+        "categories": [
+          "55818a594bdc2db9688b456a",
+          "55802f3e4bdc2de7118b4584",
+          "5448fe124bdc2da5018b4567",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f757486f774093e6cb507",
+          "5b5f750686f774093e6cb503",
+          "5b5f71a686f77447ed5636ab"
+        ],
+        "lastLowPrice": 88799,
+        "avg24hPrice": 92725,
+        "low24hPrice": 48999,
+        "high24hPrice": 100000,
+        "changeLast48h": 38713,
+        "changeLast48hPercent": 71.67,
+        "lastScan": "2026-10-09T10:58:03.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeaponMod",
+          "ergonomics": 8,
+          "recoilModifier": -0.21,
+          "accuracyModifier": 0,
+          "slots": [
+            {
+              "id": "58d2910886f7744e27117492",
+              "nameId": "mod_stock",
+              "required": false,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "58d2912286f7744e27117493"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_STOCK"
+            }
+          ]
+        },
+        "minLevelForFlea": 20,
+        "accuracyModifier": 0,
+        "recoilModifier": -21,
+        "ergonomicsModifier": 8,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "loudness": 0,
+        "hasGrid": false,
+        "backgroundColor": "blue",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": [
+          {
+            "trader": "58330581ace78e27b8b10cee",
+            "price": 100,
+            "priceRUB": 17219,
+            "currency": "USD",
+            "currencyItem": "5696686a4bdc2da3298b456a",
+            "minTraderLevel": 3,
+            "taskUnlock": "626bd75d5bef5d7d590bd415",
+            "restockAmount": 1280000,
+            "buyLimit": 5
+          }
+        ]
+      },
+      "5e81ebcd8e146c7080625e15": {
+        "id": "5e81ebcd8e146c7080625e15",
+        "name": "5e81ebcd8e146c7080625e15 Name",
+        "shortName": "5e81ebcd8e146c7080625e15 ShortName",
+        "normalizedName": "fn40gl-mk2-40mm-grenade-launcher",
+        "description": "5e81ebcd8e146c7080625e15 Description",
+        "updated": "2025-12-03T12:33:38.000Z",
+        "width": 3,
+        "height": 1,
+        "weight": 2.92,
+        "lastOfferCount": 2,
+        "types": [
+          "gun",
+          "noFlea",
+          "wearable"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN40GL_Mk2_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/fn40gl-mk2-40mm-grenade-launcher",
+        "iconLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-8x.webp",
+        "containsItems": [
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 110000,
+        "categories": [
+          "5447bedf4bdc2d87278b4568",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T09:23:05.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber40x46",
+          "ergonomics": 51,
+          "recoilVertical": 230,
+          "recoilHorizontal": 460,
+          "repairCost": 326,
+          "fireRate": 30,
+          "effectiveDistance": 50,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.7,
+          "deviationCurve": 1.9,
+          "deviationMax": 15,
+          "recoilDispersion": 35,
+          "recoilAngle": 90,
+          "cameraSnap": 14,
+          "allowedAmmo": [
+            "5ede474b0c226a66f5402622",
+            "5ede475b549eed7c6d5c18fb",
+            "5ede4739e0350d05467f73e8",
+            "5f0c892565703e5c461894e9",
+            "5ede47405b097655935d7d16",
+            "5ede475339ee016e8c534742"
+          ],
+          "slots": [
+            {
+              "id": "5ecd051046779c0def791544",
+              "nameId": "mod_pistol_grip",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5bb20e18d4351e00320205d5",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "68a63d4f22b1e0bd360afe6a",
+                  "6984b7d56be2752c150e6895",
+                  "6985eb089edef67ade080b72",
+                  "698dac21772d6f3dc00e4284",
+                  "6a1577a0bf497aade1002754",
+                  "6a1577b09bbb889992032c14"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_PISTOL_GRIP"
+            }
+          ],
+          "defaultPreset": "5f06d6e1475d472556679d16",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "5f06d6e1475d472556679d16"
+          ],
+          "defaultWidth": 3,
+          "defaultHeight": 2,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "5ede474b0c226a66f5402622"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 51,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "6275303a9f372d6ea97f9ec7": {
+        "id": "6275303a9f372d6ea97f9ec7",
+        "name": "6275303a9f372d6ea97f9ec7 Name",
+        "shortName": "6275303a9f372d6ea97f9ec7 ShortName",
+        "normalizedName": "milkor-m32a1-msgl-40mm-grenade-launcher",
+        "description": "6275303a9f372d6ea97f9ec7 Description",
+        "updated": "2025-12-03T12:33:38.000Z",
+        "width": 4,
+        "height": 1,
+        "weight": 3.3,
+        "lastOfferCount": 1,
+        "types": [
+          "gun",
+          "noFlea"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Milkor_M32A1_MSGL_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/milkor-m32a1-msgl-40mm-grenade-launcher",
+        "iconLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-8x.webp",
+        "containsItems": [
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 185000,
+        "categories": [
+          "617f1ef5e8b54b0998387733",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T09:24:38.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber40x46",
+          "ergonomics": 30,
+          "recoilVertical": 238,
+          "recoilHorizontal": 560,
+          "repairCost": 70,
+          "fireRate": 30,
+          "effectiveDistance": 70,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.48,
+          "deviationCurve": 2,
+          "deviationMax": 11,
+          "recoilDispersion": 20,
+          "recoilAngle": 90,
+          "cameraSnap": 3.5,
+          "allowedAmmo": [],
+          "slots": [
+            {
+              "id": "627533300b654e6532016da6",
+              "nameId": "mod_pistol_grip",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5bb20e18d4351e00320205d5",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "63f5feead259b42f0b4d6d0f",
+                  "68a63d4f22b1e0bd360afe6a",
+                  "6a1577a0bf497aade1002754",
+                  "6a1577b09bbb889992032c14"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_PISTOL_GRIP"
+            }
+          ],
+          "defaultPreset": "629744d002667c48a467e9f9",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "629744d002667c48a467e9f9",
+            "70726573657400000000002b"
+          ],
+          "defaultWidth": 4,
+          "defaultHeight": 2,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "5ede474b0c226a66f5402622"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 30,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "676bf44c5539167c3603e869": {
+        "id": "676bf44c5539167c3603e869",
+        "name": "676bf44c5539167c3603e869 Name",
+        "shortName": "676bf44c5539167c3603e869 ShortName",
+        "normalizedName": "rshg-2-725mm-rocket-launcher",
+        "description": "676bf44c5539167c3603e869 Description",
+        "updated": "2026-10-09T09:38:07.000Z",
+        "width": 4,
+        "height": 1,
+        "weight": 3.77,
+        "lastOfferCount": 1,
+        "types": [
+          "gun"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RShG-2_72.5mm_rocket_launcher",
+        "link": "https://tarkov.dev/item/rshg-2-725mm-rocket-launcher",
+        "iconLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-8x.webp",
+        "containsItems": [
+          {
+            "item": "67446fdd752be02c220f27b3",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 42500,
+        "categories": [
+          "67446d4f04141c10630604e7",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79eb86f77447ed5636b7",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 333333,
+        "avg24hPrice": 441896,
+        "low24hPrice": 100000,
+        "high24hPrice": 2500000,
+        "changeLast48h": -31996,
+        "changeLast48hPercent": -6.75,
+        "lastScan": "2026-10-09T09:28:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber725",
+          "ergonomics": 39,
+          "recoilVertical": 180,
+          "recoilHorizontal": 150,
+          "repairCost": 326,
+          "fireRate": 30,
+          "effectiveDistance": 50,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.7,
+          "deviationCurve": 1.9,
+          "deviationMax": 15,
+          "recoilDispersion": 35,
+          "recoilAngle": 90,
+          "cameraSnap": 14,
+          "allowedAmmo": [
+            "67446fdd752be02c220f27b3"
+          ],
+          "slots": [],
+          "defaultPreset": "67a328326e3613a197068d05",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "67a328326e3613a197068d05"
+          ],
+          "defaultWidth": 4,
+          "defaultHeight": 1,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "67446fdd752be02c220f27b3"
+        },
+        "minLevelForFlea": 30,
+        "maxDurability": 100,
+        "ergonomicsModifier": 39,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "61a4c8884f95bc3b2c5dc96f": {
+        "id": "61a4c8884f95bc3b2c5dc96f",
+        "name": "61a4c8884f95bc3b2c5dc96f Name",
+        "shortName": "61a4c8884f95bc3b2c5dc96f ShortName",
+        "normalizedName": "chiappa-rhino-50ds-357-revolver",
+        "description": "61a4c8884f95bc3b2c5dc96f Description",
+        "updated": "2026-10-09T09:38:06.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.685,
+        "lastOfferCount": 19,
+        "types": [
+          "gun"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chiappa_Rhino_50DS_.357_revolver",
+        "link": "https://tarkov.dev/item/chiappa-rhino-50ds-357-revolver",
+        "iconLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-8x.webp",
+        "containsItems": [
+          {
+            "item": "619f54a1d25cbd424731fb99",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 10443,
+        "categories": [
+          "617f1ef5e8b54b0998387733",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f792486f77447ed5636b3",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 16000,
+        "avg24hPrice": 17067,
+        "changeLast48h": -13801,
+        "changeLast48hPercent": -44.71,
+        "lastScan": "2026-10-09T09:28:04.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber9x33R",
+          "ergonomics": 80,
+          "recoilVertical": 383,
+          "recoilHorizontal": 280,
+          "repairCost": 70,
+          "fireRate": 30,
+          "effectiveDistance": 70,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.15,
+          "deviationCurve": 2,
+          "deviationMax": 11,
+          "recoilDispersion": 10,
+          "recoilAngle": 80,
+          "cameraSnap": 3,
+          "allowedAmmo": [],
+          "slots": [
+            {
+              "id": "61a4c8884f95bc3b2c5dc971",
+              "nameId": "mod_magazine",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "619f54a1d25cbd424731fb99"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MAGAZINE"
+            }
+          ],
+          "defaultPreset": "624d7a3691f0160c7324c3f4",
+          "fireModes": [
+            "single",
+            "doubleaction"
+          ],
+          "presets": [
+            "624d7a3691f0160c7324c3f4",
+            "624d7ae691f0160c7324c402"
+          ],
+          "defaultWidth": 2,
+          "defaultHeight": 1,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "62330b3ed4dc74626d570b95"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 80,
+        "stackMaxSize": 1,
+        "velocity": 20,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "5f06d6e1475d472556679d16": {
+        "id": "5f06d6e1475d472556679d16",
+        "name": "5f06d6e1475d472556679d16 Name",
+        "shortName": "5f06d6e1475d472556679d16 ShortName",
+        "normalizedName": "fn40gl-mk2-40mm-grenade-launcher-default",
+        "updated": "2026-07-23T23:31:25.000Z",
+        "width": 3,
+        "height": 2,
+        "weight": 3,
+        "lastOfferCount": 2,
+        "types": [
+          "noFlea",
+          "preset"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN40GL_Mk2_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/fn40gl-mk2-40mm-grenade-launcher-default",
+        "iconLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-8x.webp",
+        "containsItems": [
+          {
+            "item": "5e81ebcd8e146c7080625e15",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 111599,
+        "categories": [
+          "5447bedf4bdc2d87278b4568",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T06:35:54.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesPreset",
+          "ergonomics": 54,
+          "recoilVertical": 228,
+          "recoilHorizontal": 455,
+          "moa": 24.07,
+          "default": true,
+          "baseItem": "5e81ebcd8e146c7080625e15"
+        },
+        "minLevelForFlea": 0,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      }
+    },
+    "itemCategories": {
+      "55802f4a4bdc2ddb688b4569": {
+        "id": "55802f4a4bdc2ddb688b4569",
+        "name": "55802f4a4bdc2ddb688b4569 Name",
+        "normalizedName": "essential-mod",
+        "parent": "5448fe124bdc2da5018b4567",
+        "children": [
+          "555ef6e44bdc2de9068b457e",
+          "55818a304bdc2db5418b457d"
+        ]
+      },
+      "5448fe124bdc2da5018b4567": {
+        "id": "5448fe124bdc2da5018b4567",
+        "name": "5448fe124bdc2da5018b4567 Name",
+        "normalizedName": "weapon-mod",
+        "parent": "566162e44bdc2d3f298b4573",
+        "children": [
+          "55802f3e4bdc2de7118b4584",
+          "550aa4154bdc2dd8348b456b",
+          "55802f4a4bdc2ddb688b4569"
+        ]
+      },
+      "566162e44bdc2d3f298b4573": {
+        "id": "566162e44bdc2d3f298b4573",
+        "name": "566162e44bdc2d3f298b4573 Name",
+        "normalizedName": "compound-item",
+        "parent": "54009119af1c881c07000029",
+        "children": [
+          "5422acb9af1c889c16000029",
+          "5448fe124bdc2da5018b4567",
+          "543be5f84bdc2dd4348b456a"
+        ]
+      },
+      "54009119af1c881c07000029": {
+        "id": "54009119af1c881c07000029",
+        "name": "54009119af1c881c07000029 Name",
+        "normalizedName": "item",
+        "parent": "",
+        "children": [
+          "566162e44bdc2d3f298b4573"
+        ]
+      },
+      "5448bc234bdc2d3c308b4569": {
+        "id": "5448bc234bdc2d3c308b4569",
+        "name": "5448bc234bdc2d3c308b4569 Name",
+        "normalizedName": "magazine",
+        "parent": "55802f3e4bdc2de7118b4584",
+        "children": []
+      },
+      "55802f3e4bdc2de7118b4584": {
+        "id": "55802f3e4bdc2de7118b4584",
+        "name": "55802f3e4bdc2de7118b4584 Name",
+        "normalizedName": "gear-mod",
+        "parent": "5448fe124bdc2da5018b4567",
+        "children": [
+          "5448bc234bdc2d3c308b4569",
+          "55818a594bdc2db9688b456a"
+        ]
+      },
+      "5447b5e04bdc2d62278b4567": {
+        "id": "5447b5e04bdc2d62278b4567",
+        "name": "5447b5e04bdc2d62278b4567 Name",
+        "normalizedName": "smg",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      },
+      "5422acb9af1c889c16000029": {
+        "id": "5422acb9af1c889c16000029",
+        "name": "5422acb9af1c889c16000029 Name",
+        "normalizedName": "weapon",
+        "parent": "566162e44bdc2d3f298b4573",
+        "children": [
+          "5447b5e04bdc2d62278b4567"
+        ]
+      },
+      "55818ae44bdc2dde698b456c": {
+        "id": "55818ae44bdc2dde698b456c",
+        "name": "55818ae44bdc2dde698b456c Name",
+        "normalizedName": "scope",
+        "parent": "5448fe7a4bdc2d6f028b456b",
+        "children": []
+      },
+      "5448fe7a4bdc2d6f028b456b": {
+        "id": "5448fe7a4bdc2d6f028b456b",
+        "name": "5448fe7a4bdc2d6f028b456b Name",
+        "normalizedName": "sights",
+        "parent": "550aa4154bdc2dd8348b456b",
+        "children": [
+          "55818ae44bdc2dde698b456c",
+          "55818aeb4bdc2ddc698b456a"
+        ]
+      },
+      "550aa4154bdc2dd8348b456b": {
+        "id": "550aa4154bdc2dd8348b456b",
+        "name": "550aa4154bdc2dd8348b456b Name",
+        "normalizedName": "functional-mod",
+        "parent": "5448fe124bdc2da5018b4567",
+        "children": [
+          "5448fe7a4bdc2d6f028b456b"
+        ]
+      },
+      "55818aeb4bdc2ddc698b456a": {
+        "id": "55818aeb4bdc2ddc698b456a",
+        "name": "55818aeb4bdc2ddc698b456a Name",
+        "normalizedName": "special-scope",
+        "parent": "5448fe7a4bdc2d6f028b456b",
+        "children": [
+          "5a2c3a9486f774688b05e574"
+        ]
+      },
+      "55818a594bdc2db9688b456a": {
+        "id": "55818a594bdc2db9688b456a",
+        "name": "55818a594bdc2db9688b456a Name",
+        "normalizedName": "stock",
+        "parent": "55802f3e4bdc2de7118b4584",
+        "children": []
+      },
+      "5a341c4686f77469e155819e": {
+        "id": "5a341c4686f77469e155819e",
+        "name": "5a341c4686f77469e155819e Name",
+        "normalizedName": "face-cover",
+        "parent": "57bef4c42459772e8d35a53b",
+        "children": []
+      },
+      "57bef4c42459772e8d35a53b": {
+        "id": "57bef4c42459772e8d35a53b",
+        "name": "57bef4c42459772e8d35a53b Name",
+        "normalizedName": "armored-equipment",
+        "parent": "543be5f84bdc2dd4348b456a",
+        "children": [
+          "5a341c4686f77469e155819e"
+        ]
+      },
+      "543be5f84bdc2dd4348b456a": {
+        "id": "543be5f84bdc2dd4348b456a",
+        "name": "543be5f84bdc2dd4348b456a Name",
+        "normalizedName": "equipment",
+        "parent": "566162e44bdc2d3f298b4573",
+        "children": [
+          "57bef4c42459772e8d35a53b",
+          "5645bcb74bdc2ded0b8b4578"
+        ]
+      },
+      "55818a304bdc2db5418b457d": {
+        "id": "55818a304bdc2db5418b457d",
+        "name": "55818a304bdc2db5418b457d Name",
+        "normalizedName": "receiver",
+        "parent": "55802f4a4bdc2ddb688b4569",
+        "children": []
+      },
+      "555ef6e44bdc2de9068b457e": {
+        "id": "555ef6e44bdc2de9068b457e",
+        "name": "555ef6e44bdc2de9068b457e Name",
+        "normalizedName": "barrel",
+        "parent": "55802f4a4bdc2ddb688b4569",
+        "children": []
+      },
+      "5645bcb74bdc2ded0b8b4578": {
+        "id": "5645bcb74bdc2ded0b8b4578",
+        "name": "5645bcb74bdc2ded0b8b4578 Name",
+        "normalizedName": "headphones",
+        "parent": "543be5f84bdc2dd4348b456a",
+        "children": []
+      },
+      "5a2c3a9486f774688b05e574": {
+        "id": "5a2c3a9486f774688b05e574",
+        "name": "5a2c3a9486f774688b05e574 Name",
+        "normalizedName": "night-vision",
+        "parent": "55818aeb4bdc2ddc698b456a",
+        "children": []
+      },
+      "5447bedf4bdc2d87278b4568": {
+        "id": "5447bedf4bdc2d87278b4568",
+        "name": "5447bedf4bdc2d87278b4568 Name",
+        "normalizedName": "grenade-launcher",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      },
+      "617f1ef5e8b54b0998387733": {
+        "id": "617f1ef5e8b54b0998387733",
+        "name": "617f1ef5e8b54b0998387733 Name",
+        "normalizedName": "revolver",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      },
+      "67446d4f04141c10630604e7": {
+        "id": "67446d4f04141c10630604e7",
+        "name": "67446d4f04141c10630604e7 Name",
+        "normalizedName": "rocket-launcher",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      }
+    }
+  },
+  "translations": [
+    "$.data.items.*.name",
+    "$.data.items.*.shortName",
+    "$.data.items.*.description",
+    "$.data.items.*.properties.slots[*].name",
+    "$.data.items.*.properties.zones[*]",
+    "$.data.items.*.properties.armorType",
+    "$.data.items.*.properties.armorSlots[*].name",
+    "$.data.items.*.properties.armorSlots[*].zones[*]",
+    "$.data.items.*.properties.armorSlots[*].armorType",
+    "$.data.items.*.properties.stimEffects[*].type",
+    "$.data.items.*.properties.fireModes[*]",
+    "$.data.items.*.properties.content[*]",
+    "$.data.fleaMarket.*.name",
+    "$.data.armorMaterial.*.name",
+    "$.data.skills.*.name",
+    "$.data.itemCategories.*.name",
+    "$.data.handbookCategories.*.name"
+  ]
+}
