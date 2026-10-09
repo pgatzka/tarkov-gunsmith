@@ -58,6 +58,7 @@ The GraphQL API at `api.tarkov.dev/graphql` currently returns "GraphQL server un
 | `/{mode}/items` | Weapons, mods, slots, conflicts, modifiers, weight, `buyFromTrader`, flea prices, `noFlea` |
 | `/{mode}/items_en` | Translation map (names are translation keys in the base payload) |
 | `/{mode}/traders` | Trader names and levels |
+| `/{mode}/traders_en` | Translation map for trader names |
 
 `mode` ∈ `regular`, `pve`. Relevant fields:
 

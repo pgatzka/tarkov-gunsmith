@@ -37,7 +37,7 @@ Goal: the empty skeleton runs with one `docker compose up`.
 
 Goal: all weapons, mods, traders and offers from json.tarkov.dev are in Postgres and kept fresh.
 
-- [ ] **1.1 json.tarkov.dev client**
+- [x] **1.1 json.tarkov.dev client** — 2026-10-09, [#5](https://github.com/pgatzka/tarkov-gunsmith/pull/5)
   - What: an HTTP client for `/{mode}/items`, `/{mode}/items_en`, `/{mode}/traders` (modes `regular` and `pve`). Supports ETag/304 and brotli/gzip, and resolves translation keys. Typed DTOs for the fields listed in SPEC §2.
   - Depends: 0.1
   - Done when: unit tests pass against recorded fixture JSON (trimmed samples committed under test resources), and there is a manual smoke test against the live API.
