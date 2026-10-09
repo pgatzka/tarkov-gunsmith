@@ -84,6 +84,17 @@ public class BuildRepository {
         return count == null ? 0 : count;
     }
 
+    /** The number of stored builds of each weapon that has any. */
+    public Map<String, Long> countByWeapon() {
+        Map<String, Long> counts = new HashMap<>();
+        jdbc.query(
+                "SELECT weapon_id, count(*) FROM build GROUP BY weapon_id",
+                rs -> {
+                    counts.put(rs.getString(1), rs.getLong(2));
+                });
+        return counts;
+    }
+
     private static Map<String, Long> insertBuilds(Connection connection, Collection<Build> builds) throws SQLException {
         int n = builds.size();
         String[] weaponIds = new String[n];

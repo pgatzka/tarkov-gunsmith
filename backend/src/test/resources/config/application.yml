@@ -3,3 +3,7 @@ gunsmith:
   sync:
     # Tests never call the live json.tarkov.dev; DataSyncIT drives DataSync against fixtures.
     enabled: false
+  generator:
+    # Background generation would write builds while other tests truncate and import; BuildGenerationIT
+    # starts its own workers.
+    enabled: false

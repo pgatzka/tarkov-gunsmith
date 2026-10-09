@@ -30,6 +30,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-testcontainers")
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:postgresql")
+    testImplementation("org.awaitility:awaitility")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 

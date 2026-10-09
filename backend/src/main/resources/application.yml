@@ -31,6 +31,13 @@ gunsmith:
     # Pull json.tarkov.dev on startup and then every interval (its data updates about every 10 min).
     enabled: true
     interval: 10m
+  generator:
+    # Background workers that keep generating random builds (SPEC §4.1). Keep threads below the core
+    # count so the API stays responsive.
+    enabled: true
+    threads: 2
+    batch-size: 1000
+    idle-delay: 10s
   game-data:
     # Launchers and other special weapons get no builds (SPEC §1.1). Ids are json.tarkov.dev ids.
     excluded-weapon-categories:

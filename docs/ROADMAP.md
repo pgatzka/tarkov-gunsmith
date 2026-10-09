@@ -83,7 +83,7 @@ Goal: builds accumulate continuously, respecting the cap and the patch wipes.
   - What: migrations for `build` and `build_part` (with a unique `partsHash`), and a batch insert repository.
   - Depends: 2.4
   - Done when: duplicates are rejected, and batch insert throughput has been measured and noted in the PR.
-- [ ] **3.2 Background generator workers**
+- [x] **3.2 Background generator workers** — 2026-10-09
   - What: configurable thread pool, round-robin over weapons that favours those with the fewest builds, batched writes. Config: `threads`, `batch-size`, `enabled`.
   - Depends: 3.1
   - Done when: the build count grows over time for every weapon in a running app, and the generator can be disabled from config.
