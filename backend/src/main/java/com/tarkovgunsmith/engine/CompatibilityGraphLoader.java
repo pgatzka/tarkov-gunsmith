@@ -34,6 +34,13 @@ public class CompatibilityGraphLoader {
         this.objectMapper = objectMapper;
     }
 
+    /** Whether any weapon is stored, i.e. whether {@link #load()} would find something to build. */
+    public boolean hasWeapons() {
+        return jdbc.sql("SELECT EXISTS (SELECT 1 FROM item WHERE kind = 'WEAPON')")
+                .query(Boolean.class)
+                .single();
+    }
+
     public CompatibilityGraph load() {
         long start = System.nanoTime();
         Map<String, String> parents = new HashMap<>();

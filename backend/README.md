@@ -27,6 +27,10 @@ Health: `GET http://localhost:8080/api/actuator/health`
 | `GUNSMITH_TARKOVDEV_BASEURL` | `https://json.tarkov.dev` |
 | `GUNSMITH_SYNC_ENABLED` | `true` |
 | `GUNSMITH_SYNC_INTERVAL` | `10m` |
+| `GUNSMITH_GENERATOR_ENABLED` | `true` |
+| `GUNSMITH_GENERATOR_THREADS` | `2` |
+| `GUNSMITH_GENERATOR_BATCHSIZE` | `1000` |
+| `GUNSMITH_GENERATOR_IDLEDELAY` | `10s` |
 
 Flyway migrations live in `src/main/resources/db/migration`.
 
@@ -197,3 +201,30 @@ of all weapons, 12.3 parts each on average; 134,102 distinct). On 4 cores:
 | 5,000 | 7,400 builds/s | 50,000 builds/s |
 
 Most of the time goes into the `build_part` rows (about 80,000 rows/s).
+
+## Background generation
+
+`com.tarkovgunsmith.build.BuildGeneration` runs `gunsmith.generator.threads` worker threads that
+keep generating builds and storing them. Each worker loops: take the next weapon, generate
+`batch-size` builds of it with `BuildGenerator`, and store the distinct ones with one
+`BuildRepository.insertAll` batch (builds already stored are dropped there).
+
+`WeaponQueue` picks the weapon: the one with the fewest stored builds, counting a batch another
+worker is generating for it as `batch-size` builds, and among equals the one picked longest ago, so
+the workers go round-robin over the weapons. It starts from the stored counts
+(`BuildRepository.countByWeapon()`). A weapon whose batch added fewer than 1 new build in 100
+generated (or none could be generated) has few distinct builds left; it is skipped for 1 minute,
+doubling on every further such batch up to 1 hour, and a productive batch resets that. Without
+this, weapons with only a handful of possible builds (pistols with no mod options have 1) would stay
+the ones with the fewest builds and get every batch.
+
+The workers start with the app (a `SmartLifecycle`, stopped after the current batch on shutdown)
+unless `gunsmith.generator.enabled=false`; tests turn them off in
+`src/test/resources/config/application.yml`. The compatibility graph is loaded when they start.
+While no weapon is stored yet (the first data sync is still running), they check every
+`idle-delay` and load the graph once there is one. `reloadGraph()` reloads it and the stored counts.
+A failed batch is logged and retried after `idle-delay`. Once a minute the throughput is logged.
+
+In a running app (`./gradlew bootTestRun`, synced from the `all-guns` fixtures, 2 threads, batches
+of 1,000, 4 cores) all 161 weapons had builds within a minute, and the store grew by about 7,500
+builds/s (about 1.1M builds generated per minute, 40-45% of them new).
