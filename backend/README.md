@@ -112,3 +112,30 @@ RSh-12 lists two scopes.
 progress, and `Conflicts.find(build)` lists every conflicting pair of a finished build. In the live
 data only gear (headsets, masks, mandibles) uses `conflictingCategories`, so `ConflictsTest` covers
 that rule with a real gear pair (MSA riot gas mask vs AN/PVS-14 night vision).
+
+## Stat calculator
+
+`com.tarkovgunsmith.engine.StatCalculator.compute(...)` computes a build's `BuildStats` (SPEC §3)
+from its weapon and mods: ergonomics = weapon ergonomics + Σ `ergonomicsModifier`, recoil
+(vertical and horizontal) = weapon recoil × (1 + Σ `recoilModifier` / 100), weight = Σ weight
+including the weapon. A mod used in two slots counts twice. Nothing is rounded or clamped.
+
+`PresetStatsIT` validates it against every weapon preset in `src/test/resources/tarkovdev/presets/`
+(all guns, their presets and every item they contain, recorded from `/regular/items`, stat fields
+only): 395 presets covering all 161 imported weapons. Tolerances:
+
+| Stat | Tolerance | Why |
+|---|---|---|
+| Ergonomics | 1e-6 | stored unrounded (e.g. 54.5) |
+| Recoil | ±0.5 | stored rounded to a whole number; ties go either way (KBP VSK-94 Default: 60.5 computed, 60 stored) |
+| Weight | 1e-6 | checked only when every part is a weapon or mod; the 21 presets with a loaded magazine also list the ammo, which isn't imported |
+
+Exceptions: 26 presets list a mod twice (`count: 2`, e.g. two rail covers or flashlights) and
+their stored ergonomics count that mod only once, although their stored weight counts both
+copies. This is how tarkov.dev computes preset ergonomics; the game counts every attached mod, so
+the engine does too. The test checks that each of these differs by exactly the duplicate copies'
+`ergonomicsModifier` (e.g. SIG MPX Default, 2× rail cover at −0.1: stored 78.25, computed 78.15).
+Recoil and weight match for all 395.
+
+`./gradlew liveTest` includes `PresetStatsLiveTest`, which runs the same check against the current
+live data, e.g. after a game patch.
