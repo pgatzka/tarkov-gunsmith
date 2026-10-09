@@ -79,3 +79,21 @@ also re-imports the offers of both modes. One log line per run says what changed
 
 All imports of a run and their new ETags are committed in one transaction. If a fetch or import
 fails, the error is logged, the last imported data stays in place, and the next run retries.
+
+## Compatibility graph
+
+`com.tarkovgunsmith.engine.CompatibilityGraphLoader.load()` reads the stored weapons, mods and
+category tree and builds a `CompatibilityGraph`: weapon → slots → mods that fit → their slots, and
+so on. Each weapon and mod is one shared `Part`, so the graph can be walked recursively from any
+weapon (`CompatibilityGraph.reachable(...)` collects everything that can end up in its builds).
+
+A slot's candidates are its `allowedItems` plus every mod in an `allowedCategories` category or one
+of its descendants, minus `excludedItems` and mods in an `excludedCategories` category (exclusion
+wins). Ancestors come from `item_category`, so an item's stored categories don't have to list them.
+Only mods are candidates; presets, weapons and ids that aren't stored are ignored. The graph is
+immutable and safe to share between threads.
+
+The live data currently lists every allowed item explicitly (no slot uses category filters), so
+category resolution is covered by synthetic tests. `src/test/resources/tarkovdev/mp5-tree/` holds
+the MP5, all 233 mods reachable from it and its 7 presets, recorded from `/regular/items` (stat,
+slot and conflict fields only, no offers).
