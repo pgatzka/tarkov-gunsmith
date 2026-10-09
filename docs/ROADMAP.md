@@ -45,7 +45,7 @@ Goal: all weapons, mods, traders and offers from json.tarkov.dev are in Postgres
   - What: Flyway migrations for `item`, `trader`, `offer` and `data_version`. Importer that stores items with stats, modifiers, slots and conflicts, and classifies weapons. Launchers and special weapons are excluded through a configurable list or category.
   - Depends: 1.1
   - Done when: an import from fixtures populates the tables, and the excluded weapons are absent.
-- [x] **1.3 Offers & prices** — 2026-10-09
+- [x] **1.3 Offers & prices** — 2026-10-09, [#7](https://github.com/pgatzka/tarkov-gunsmith/pull/7)
   - What: imports trader cash offers that are not quest-locked (with `minTraderLevel`) and flea prices (`lastLowPrice`, falling back to `avg24hPrice`; `noFlea` items are skipped), per mode.
   - Depends: 1.2
   - Done when: an MP5 receiver has the expected trader and flea offers for both PvP and PvE in a test.
