@@ -173,3 +173,27 @@ independently of the generator (`BuildCheck`). In each build:
 It runs on `src/test/resources/tarkovdev/all-guns/`: every gun and mod recorded from
 `/regular/items`, with stat, slot and conflict fields only. `items.json` is gzipped (3.3 MB raw).
 Every weapon produces valid builds. The run takes about 12 s for 1.61M builds on 4 cores.
+
+## Build store
+
+`V3__builds.sql` creates `build` (weapon, `parts_hash`, ergonomics, vertical and horizontal recoil,
+weight, `created_at`) and `build_part` (one row per part, the weapon included with slot path `""`:
+`slot_path`, `item_id`, `parent_path`). `parts_hash` is unique, so a build is stored at most once.
+There are no foreign keys: builds are wiped as a whole when the game data changes, and the per-row
+FK checks made part inserts about 3x slower.
+
+`com.tarkovgunsmith.build.BuildRepository.insertAll(builds)` stores a batch in one transaction with
+two statements (one per table), passing each column as an array expanded with `unnest`. Builds whose
+hash is already stored, or repeated within the batch, are skipped (`ON CONFLICT DO NOTHING`); it
+returns the builds it inserted with their new ids.
+
+`./gradlew benchmark` measures insert throughput against a Testcontainers Postgres (161,000 builds
+of all weapons, 12.3 parts each on average; 134,102 distinct). On 4 cores:
+
+| Batch size | New builds | Duplicates only |
+|---|---|---|
+| 100 | 5,300 builds/s | 29,000 builds/s |
+| 1,000 | 6,700 builds/s | 50,000 builds/s |
+| 5,000 | 7,400 builds/s | 50,000 builds/s |
+
+Most of the time goes into the `build_part` rows (about 80,000 rows/s).

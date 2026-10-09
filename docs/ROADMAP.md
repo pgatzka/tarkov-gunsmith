@@ -79,7 +79,7 @@ Goal: correct compatibility, conflict handling and stat computation, verified ag
 
 Goal: builds accumulate continuously, respecting the cap and the patch wipes.
 
-- [ ] **3.1 Build persistence**
+- [x] **3.1 Build persistence** — 2026-10-09, [#13](https://github.com/pgatzka/tarkov-gunsmith/pull/13)
   - What: migrations for `build` and `build_part` (with a unique `partsHash`), and a batch insert repository.
   - Depends: 2.4
   - Done when: duplicates are rejected, and batch insert throughput has been measured and noted in the PR.

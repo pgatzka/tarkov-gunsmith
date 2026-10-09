@@ -35,7 +35,7 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform {
-        excludeTags("live")
+        excludeTags("live", "benchmark")
     }
 }
 
@@ -47,6 +47,21 @@ val liveTest by tasks.registering(Test::class) {
     classpath = sourceSets.test.get().runtimeClasspath
     useJUnitPlatform {
         includeTags("live")
+    }
+    outputs.upToDateWhen { false }
+}
+
+// Throughput measurements (Testcontainers Postgres, results in the log): ./gradlew benchmark
+val benchmark by tasks.registering(Test::class) {
+    description = "Runs tests tagged 'benchmark' that measure throughput."
+    group = "verification"
+    testClassesDirs = sourceSets.test.get().output.classesDirs
+    classpath = sourceSets.test.get().runtimeClasspath
+    useJUnitPlatform {
+        includeTags("benchmark")
+    }
+    testLogging {
+        showStandardStreams = true
     }
     outputs.upToDateWhen { false }
 }
