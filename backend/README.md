@@ -97,3 +97,18 @@ The live data currently lists every allowed item explicitly (no slot uses catego
 category resolution is covered by synthetic tests. `src/test/resources/tarkovdev/mp5-tree/` holds
 the MP5, all 233 mods reachable from it and its 7 presets, recorded from `/regular/items` (stat,
 slot and conflict fields only, no offers).
+
+## Conflict rules
+
+`com.tarkovgunsmith.engine.Conflicts` decides whether two parts of a build (each a `Placement`: a
+part and the slot it sits in, or the weapon at the root) can coexist. They conflict when one lists
+the other in `conflictingItems`, lists the other's slot in `conflictingSlotIds` (that slot must stay
+empty), or lists one of the other's categories or their ancestors in `conflictingCategories`. The
+game data usually records a conflict on one side only (scopes list the reflex sights they block,
+not the other way round), so every rule is checked in both directions. Weapons take part too: the
+RSh-12 lists two scopes.
+
+`Conflicts.conflictsWithAny(candidate, chosen)` is the check for adding a part to a build in
+progress, and `Conflicts.find(build)` lists every conflicting pair of a finished build. In the live
+data only gear (headsets, masks, mandibles) uses `conflictingCategories`, so `ConflictsTest` covers
+that rule with a real gear pair (MSA riot gas mask vs AN/PVS-14 night vision).
