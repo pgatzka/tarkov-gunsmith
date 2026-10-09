@@ -14,7 +14,7 @@ npm run format   # apply Prettier
 
 ## Backend proxy
 
-The dev server proxies `/api/*` to the backend unchanged (same as nginx will in production).
+The dev server proxies `/api/*` to the backend unchanged (same as nginx does in Docker Compose, see `nginx.conf`).
 Target defaults to `http://localhost:8080`; override with `BACKEND_URL`, e.g.
 `BACKEND_URL=http://localhost:9090 npm run dev`.
 

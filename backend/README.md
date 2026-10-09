@@ -10,7 +10,9 @@ Spring Boot 3 / Java 21 / Gradle (Kotlin DSL), Postgres + Flyway, Spring Data JD
 ./gradlew bootTestRun   # against a throwaway Postgres container
 ```
 
-Health: `GET http://localhost:8080/actuator/health`
+All endpoints are served under the `/api` context path.
+
+Health: `GET http://localhost:8080/api/actuator/health`
 
 ## Configuration
 

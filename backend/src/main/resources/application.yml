@@ -8,6 +8,12 @@ spring:
   flyway:
     locations: classpath:db/migration
 
+server:
+  servlet:
+    # Everything (REST API and Actuator) lives under /api, so nginx and the Vite
+    # dev server can proxy /api/* to the backend unchanged.
+    context-path: /api
+
 management:
   endpoints:
     web:
