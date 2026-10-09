@@ -40,3 +40,18 @@ requested brotli/gzip compressed. Names in the payloads are translation keys; re
 Unit tests run against trimmed fixtures recorded from the live API in
 `src/test/resources/tarkovdev/regular/` (MP5 with its default preset and a few mods chosen to cover
 slots, each conflict type, trader offers incl. a quest-locked one, and a `noFlea` item).
+
+## Game data import
+
+Flyway migration `V1__game_data.sql` creates `item_category`, `item`, `trader`, `offer` and
+`data_version`. `com.tarkovgunsmith.gamedata.GameDataImporter` stores translated payloads:
+
+- `importItems(...)`: the category tree plus every weapon, mod and weapon preset with stats,
+  modifiers, slots (JSONB) and conflicts. Weapons get a `weapon_class` (e.g. `smg`).
+- `importTraders(...)`: trader names and max loyalty level.
+
+Each import upserts only rows whose data changed and deletes rows that are no longer in the payload.
+
+Launchers and other special weapons are excluded (they and their presets are not stored) through
+`gunsmith.game-data.excluded-weapon-categories` (category ids; children are included) and
+`gunsmith.game-data.excluded-weapons` (item ids) in `application.yml`.

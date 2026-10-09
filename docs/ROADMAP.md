@@ -41,7 +41,7 @@ Goal: all weapons, mods, traders and offers from json.tarkov.dev are in Postgres
   - What: an HTTP client for `/{mode}/items`, `/{mode}/items_en`, `/{mode}/traders` (modes `regular` and `pve`). Supports ETag/304 and brotli/gzip, and resolves translation keys. Typed DTOs for the fields listed in SPEC §2.
   - Depends: 0.1
   - Done when: unit tests pass against recorded fixture JSON (trimmed samples committed under test resources), and there is a manual smoke test against the live API.
-- [ ] **1.2 Schema & item import**
+- [x] **1.2 Schema & item import** — 2026-10-09
   - What: Flyway migrations for `item`, `trader`, `offer` and `data_version`. Importer that stores items with stats, modifiers, slots and conflicts, and classifies weapons. Launchers and special weapons are excluded through a configurable list or category.
   - Depends: 1.1
   - Done when: an import from fixtures populates the tables, and the excluded weapons are absent.
