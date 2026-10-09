@@ -16,7 +16,7 @@ Status legend: `[ ]` open · `[x]` done
 
 Goal: the empty skeleton runs with one `docker compose up`.
 
-- [ ] **0.1 Backend skeleton**
+- [x] **0.1 Backend skeleton** — 2026-10-09, [#1](https://github.com/pgatzka/tarkov-gunsmith/pull/1)
   - What: Spring Boot 3 / Java 21 / Gradle (Kotlin DSL) project in `backend/`. Includes Flyway, Spring Data JDBC or JPA, Postgres driver, Actuator and a health endpoint. Testcontainers is set up for integration tests.
   - Depends: —
   - Done when: `./gradlew test` passes, and `GET /actuator/health` returns UP against a local Postgres.
