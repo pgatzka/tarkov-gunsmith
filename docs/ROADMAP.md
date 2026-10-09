@@ -58,7 +58,7 @@ Goal: all weapons, mods, traders and offers from json.tarkov.dev are in Postgres
 
 Goal: correct compatibility, conflict handling and stat computation, verified against the game's presets.
 
-- [ ] **2.1 Compatibility graph**
+- [x] **2.1 Compatibility graph** — 2026-10-09
   - What: in-memory graph of weapon → slots → allowed items → their slots (recursive). Handles `allowedCategories`/`excludedCategories` via the category tree, and `excludedItems`.
   - Depends: 1.2
   - Done when: tests show the MP5's slot tree and allowed items, and category-based filters resolve correctly.
