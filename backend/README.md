@@ -7,7 +7,7 @@ Spring Boot 3 / Java 21 / Gradle (Kotlin DSL), Postgres + Flyway, Spring Data JD
 ```sh
 ./gradlew test          # unit + integration tests (needs Docker for Testcontainers)
 ./gradlew bootRun       # against a local Postgres
-./gradlew bootTestRun   # against a throwaway Postgres container
+./gradlew bootTestRun   # against a throwaway Postgres container, syncing from the live json.tarkov.dev
 ./gradlew liveTest      # smoke tests against the real json.tarkov.dev (network required)
 ```
 
@@ -24,8 +24,9 @@ Health: `GET http://localhost:8080/api/actuator/health`
 | `DB_NAME` | `gunsmith` |
 | `DB_USER` | `gunsmith` |
 | `DB_PASSWORD` | `gunsmith` |
-
 | `GUNSMITH_TARKOVDEV_BASEURL` | `https://json.tarkov.dev` |
+| `GUNSMITH_SYNC_ENABLED` | `true` |
+| `GUNSMITH_SYNC_INTERVAL` | `10m` |
 
 Flyway migrations live in `src/main/resources/db/migration`.
 
@@ -63,3 +64,18 @@ Each import upserts only rows whose data changed and deletes rows that are no lo
 Launchers and other special weapons are excluded (they and their presets are not stored) through
 `gunsmith.game-data.excluded-weapon-categories` (category ids; children are included) and
 `gunsmith.game-data.excluded-weapons` (item ids) in `application.yml`.
+
+## Data sync
+
+`com.tarkovgunsmith.gamedata.DataSync` keeps the database in step with json.tarkov.dev. It runs
+right after startup and then `gunsmith.sync.interval` (default 10 min) after the previous run ended;
+`gunsmith.sync.enabled=false` turns it off (tests do this in `src/test/resources/config/application.yml`).
+
+Each run fetches `regular/items`, `items_en`, `traders`, `traders_en` and `pve/items` with the ETag
+stored in `data_version` (`etag:<mode>/<endpoint>`) after the last successful import. Endpoints that
+answer 304 are skipped, so a run with no new data downloads and writes nothing. A changed payload is
+imported in full, and the importer writes only the rows that differ. A change to items or traders
+also re-imports the offers of both modes. One log line per run says what changed.
+
+All imports of a run and their new ETags are committed in one transaction. If a fetch or import
+fails, the error is logged, the last imported data stays in place, and the next run retries.
