@@ -62,7 +62,7 @@ Goal: correct compatibility, conflict handling and stat computation, verified ag
   - What: in-memory graph of weapon → slots → allowed items → their slots (recursive). Handles `allowedCategories`/`excludedCategories` via the category tree, and `excludedItems`.
   - Depends: 1.2
   - Done when: tests show the MP5's slot tree and allowed items, and category-based filters resolve correctly.
-- [ ] **2.2 Conflict rules**
+- [x] **2.2 Conflict rules** — 2026-10-09
   - What: implements `conflictingItems`, `conflictingSlotIds` and `conflictingCategories` (both directions).
   - Depends: 2.1
   - Done when: unit tests cover each conflict type with real item pairs.
