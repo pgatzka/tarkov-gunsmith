@@ -27,6 +27,10 @@ management:
 gunsmith:
   tarkov-dev:
     base-url: https://json.tarkov.dev
+  sync:
+    # Pull json.tarkov.dev on startup and then every interval (its data updates about every 10 min).
+    enabled: true
+    interval: 10m
   game-data:
     # Launchers and other special weapons get no builds (SPEC §1.1). Ids are json.tarkov.dev ids.
     excluded-weapon-categories:

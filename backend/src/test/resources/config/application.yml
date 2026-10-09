@@ -1,0 +1,5 @@
+# Test overrides, merged over src/main/resources/application.yml.
+gunsmith:
+  sync:
+    # Tests never call the live json.tarkov.dev; DataSyncIT drives DataSync against fixtures.
+    enabled: false
