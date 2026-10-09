@@ -66,7 +66,7 @@ Goal: correct compatibility, conflict handling and stat computation, verified ag
   - What: implements `conflictingItems`, `conflictingSlotIds` and `conflictingCategories` (both directions).
   - Depends: 2.1
   - Done when: unit tests cover each conflict type with real item pairs.
-- [x] **2.3 Stat calculator** — 2026-10-09
+- [x] **2.3 Stat calculator** — 2026-10-09, [#11](https://github.com/pgatzka/tarkov-gunsmith/pull/11)
   - What: computes ergo, vRecoil, hRecoil and weight per SPEC §3.
   - Depends: 2.1
   - Done when: computed stats match the `preset` items' stored stats for every weapon (tolerance documented), and any exceptions are listed and explained.
