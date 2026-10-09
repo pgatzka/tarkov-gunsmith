@@ -70,7 +70,7 @@ Goal: correct compatibility, conflict handling and stat computation, verified ag
   - What: computes ergo, vRecoil, hRecoil and weight per SPEC §3.
   - Depends: 2.1
   - Done when: computed stats match the `preset` items' stored stats for every weapon (tolerance documented), and any exceptions are listed and explained.
-- [ ] **2.4 Random build generator (single build)**
+- [x] **2.4 Random build generator (single build)** — 2026-10-09, [#12](https://github.com/pgatzka/tarkov-gunsmith/pull/12)
   - What: random recursive walk. Every required slot is filled, optional slots are filled randomly, conflicting candidates are skipped, and the walk backtracks on dead ends. Produces the canonical parts hash.
   - Depends: 2.2, 2.3
   - Done when: a property test generating 10k builds per weapon finds every build valid (required slots filled, no conflicts, every item allowed in its slot). Weapons that can't produce any valid build are reported.
