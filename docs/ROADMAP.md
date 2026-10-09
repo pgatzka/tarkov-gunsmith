@@ -20,7 +20,7 @@ Goal: the empty skeleton runs with one `docker compose up`.
   - What: Spring Boot 3 / Java 21 / Gradle (Kotlin DSL) project in `backend/`. Includes Flyway, Spring Data JDBC or JPA, Postgres driver, Actuator and a health endpoint. Testcontainers is set up for integration tests.
   - Depends: —
   - Done when: `./gradlew test` passes, and `GET /actuator/health` returns UP against a local Postgres.
-- [x] **0.2 Frontend skeleton** — 2026-10-09
+- [x] **0.2 Frontend skeleton** — 2026-10-09, [#2](https://github.com/pgatzka/tarkov-gunsmith/pull/2)
   - What: React + Vite + TypeScript in `frontend/`, with ESLint/Prettier, a router and an API client stub. The dev proxy points to the backend.
   - Depends: —
   - Done when: `npm run build` and `npm run lint` pass, and the dev server shows a placeholder page.
