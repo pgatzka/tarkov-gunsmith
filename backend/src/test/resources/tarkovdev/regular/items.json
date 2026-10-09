@@ -1131,6 +1131,541 @@
             "buyLimit": 5
           }
         ]
+      },
+      "5e81ebcd8e146c7080625e15": {
+        "id": "5e81ebcd8e146c7080625e15",
+        "name": "5e81ebcd8e146c7080625e15 Name",
+        "shortName": "5e81ebcd8e146c7080625e15 ShortName",
+        "normalizedName": "fn40gl-mk2-40mm-grenade-launcher",
+        "description": "5e81ebcd8e146c7080625e15 Description",
+        "updated": "2025-12-03T12:33:38.000Z",
+        "width": 3,
+        "height": 1,
+        "weight": 2.92,
+        "lastOfferCount": null,
+        "types": [
+          "gun",
+          "noFlea",
+          "wearable"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN40GL_Mk2_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/fn40gl-mk2-40mm-grenade-launcher",
+        "iconLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5e81ebcd8e146c7080625e15-8x.webp",
+        "containsItems": [
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 110000,
+        "categories": [
+          "5447bedf4bdc2d87278b4568",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T10:09:55.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber40x46",
+          "ergonomics": 51,
+          "recoilVertical": 230,
+          "recoilHorizontal": 460,
+          "repairCost": 326,
+          "fireRate": 30,
+          "effectiveDistance": 50,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.7,
+          "deviationCurve": 1.9,
+          "deviationMax": 15,
+          "recoilDispersion": 35,
+          "recoilAngle": 90,
+          "cameraSnap": 14,
+          "allowedAmmo": [
+            "5ede474b0c226a66f5402622",
+            "5ede475b549eed7c6d5c18fb",
+            "5ede4739e0350d05467f73e8",
+            "5f0c892565703e5c461894e9",
+            "5ede47405b097655935d7d16",
+            "5ede475339ee016e8c534742"
+          ],
+          "slots": [
+            {
+              "id": "5ecd051046779c0def791544",
+              "nameId": "mod_pistol_grip",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5bb20e18d4351e00320205d5",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "68a63d4f22b1e0bd360afe6a",
+                  "6984b7d56be2752c150e6895",
+                  "6985eb089edef67ade080b72",
+                  "698dac21772d6f3dc00e4284",
+                  "6a1577a0bf497aade1002754",
+                  "6a1577b09bbb889992032c14"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_PISTOL_GRIP"
+            }
+          ],
+          "defaultPreset": "5f06d6e1475d472556679d16",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "5f06d6e1475d472556679d16"
+          ],
+          "defaultWidth": 3,
+          "defaultHeight": 2,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "5ede474b0c226a66f5402622"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 51,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "6275303a9f372d6ea97f9ec7": {
+        "id": "6275303a9f372d6ea97f9ec7",
+        "name": "6275303a9f372d6ea97f9ec7 Name",
+        "shortName": "6275303a9f372d6ea97f9ec7 ShortName",
+        "normalizedName": "milkor-m32a1-msgl-40mm-grenade-launcher",
+        "description": "6275303a9f372d6ea97f9ec7 Description",
+        "updated": "2025-12-03T12:33:38.000Z",
+        "width": 4,
+        "height": 1,
+        "weight": 3.3,
+        "lastOfferCount": null,
+        "types": [
+          "gun",
+          "noFlea"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Milkor_M32A1_MSGL_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/milkor-m32a1-msgl-40mm-grenade-launcher",
+        "iconLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/6275303a9f372d6ea97f9ec7-8x.webp",
+        "containsItems": [
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 185000,
+        "categories": [
+          "617f1ef5e8b54b0998387733",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": "2025-11-14T10:11:28.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber40x46",
+          "ergonomics": 30,
+          "recoilVertical": 238,
+          "recoilHorizontal": 560,
+          "repairCost": 70,
+          "fireRate": 30,
+          "effectiveDistance": 70,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.48,
+          "deviationCurve": 2,
+          "deviationMax": 11,
+          "recoilDispersion": 20,
+          "recoilAngle": 90,
+          "cameraSnap": 3.5,
+          "allowedAmmo": [],
+          "slots": [
+            {
+              "id": "627533300b654e6532016da6",
+              "nameId": "mod_pistol_grip",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5bb20e18d4351e00320205d5",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "63f5feead259b42f0b4d6d0f",
+                  "68a63d4f22b1e0bd360afe6a",
+                  "6a1577a0bf497aade1002754",
+                  "6a1577b09bbb889992032c14"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_PISTOL_GRIP"
+            }
+          ],
+          "defaultPreset": "629744d002667c48a467e9f9",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "629744d002667c48a467e9f9",
+            "70726573657400000000002b"
+          ],
+          "defaultWidth": 4,
+          "defaultHeight": 2,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "5ede474b0c226a66f5402622"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 30,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "676bf44c5539167c3603e869": {
+        "id": "676bf44c5539167c3603e869",
+        "name": "676bf44c5539167c3603e869 Name",
+        "shortName": "676bf44c5539167c3603e869 ShortName",
+        "normalizedName": "rshg-2-725mm-rocket-launcher",
+        "description": "676bf44c5539167c3603e869 Description",
+        "updated": "2026-10-09T09:38:07.000Z",
+        "width": 4,
+        "height": 1,
+        "weight": 3.77,
+        "lastOfferCount": 6,
+        "types": [
+          "gun"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RShG-2_72.5mm_rocket_launcher",
+        "link": "https://tarkov.dev/item/rshg-2-725mm-rocket-launcher",
+        "iconLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-8x.webp",
+        "containsItems": [
+          {
+            "item": "67446fdd752be02c220f27b3",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 42500,
+        "categories": [
+          "67446d4f04141c10630604e7",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79eb86f77447ed5636b7",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 103000,
+        "avg24hPrice": 226338,
+        "low24hPrice": 15555,
+        "high24hPrice": 550000,
+        "changeLast48h": -94065,
+        "changeLast48hPercent": -29.36,
+        "lastScan": "2026-10-09T09:28:01.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber725",
+          "ergonomics": 39,
+          "recoilVertical": 180,
+          "recoilHorizontal": 150,
+          "repairCost": 326,
+          "fireRate": 30,
+          "effectiveDistance": 50,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.7,
+          "deviationCurve": 1.9,
+          "deviationMax": 15,
+          "recoilDispersion": 35,
+          "recoilAngle": 90,
+          "cameraSnap": 14,
+          "allowedAmmo": [
+            "67446fdd752be02c220f27b3"
+          ],
+          "slots": [],
+          "defaultPreset": "67a328326e3613a197068d05",
+          "fireModes": [
+            "single"
+          ],
+          "presets": [
+            "67a328326e3613a197068d05"
+          ],
+          "defaultWidth": 4,
+          "defaultHeight": 1,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "67446fdd752be02c220f27b3"
+        },
+        "minLevelForFlea": 30,
+        "maxDurability": 100,
+        "ergonomicsModifier": 39,
+        "stackMaxSize": 1,
+        "velocity": 0,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "61a4c8884f95bc3b2c5dc96f": {
+        "id": "61a4c8884f95bc3b2c5dc96f",
+        "name": "61a4c8884f95bc3b2c5dc96f Name",
+        "shortName": "61a4c8884f95bc3b2c5dc96f ShortName",
+        "normalizedName": "chiappa-rhino-50ds-357-revolver",
+        "description": "61a4c8884f95bc3b2c5dc96f Description",
+        "updated": "2026-10-09T09:38:06.000Z",
+        "width": 2,
+        "height": 1,
+        "weight": 0.685,
+        "lastOfferCount": 4,
+        "types": [
+          "gun"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chiappa_Rhino_50DS_.357_revolver",
+        "link": "https://tarkov.dev/item/chiappa-rhino-50ds-357-revolver",
+        "iconLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/61a4c8884f95bc3b2c5dc96f-8x.webp",
+        "containsItems": [
+          {
+            "item": "619f54a1d25cbd424731fb99",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 10443,
+        "categories": [
+          "617f1ef5e8b54b0998387733",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f792486f77447ed5636b3",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": 14000,
+        "avg24hPrice": 15000,
+        "changeLast48h": -202,
+        "changeLast48hPercent": -1.33,
+        "lastScan": "2026-10-07T23:28:01.000Z",
+        "properties": {
+          "propertiesType": "ItemPropertiesWeapon",
+          "caliber": "Caliber9x33R",
+          "ergonomics": 80,
+          "recoilVertical": 383,
+          "recoilHorizontal": 280,
+          "repairCost": 70,
+          "fireRate": 30,
+          "effectiveDistance": 70,
+          "sightingRange": 100,
+          "maxDurability": 100,
+          "centerOfImpact": 0.15,
+          "deviationCurve": 2,
+          "deviationMax": 11,
+          "recoilDispersion": 10,
+          "recoilAngle": 80,
+          "cameraSnap": 3,
+          "allowedAmmo": [],
+          "slots": [
+            {
+              "id": "61a4c8884f95bc3b2c5dc971",
+              "nameId": "mod_magazine",
+              "required": true,
+              "filters": {
+                "allowedCategories": [],
+                "allowedItems": [
+                  "619f54a1d25cbd424731fb99"
+                ],
+                "excludedCategories": [],
+                "excludedItems": []
+              },
+              "name": "MOD_MAGAZINE"
+            }
+          ],
+          "defaultPreset": "624d7a3691f0160c7324c3f4",
+          "fireModes": [
+            "single",
+            "doubleaction"
+          ],
+          "presets": [
+            "624d7a3691f0160c7324c3f4",
+            "624d7ae691f0160c7324c402"
+          ],
+          "defaultWidth": 2,
+          "defaultHeight": 1,
+          "defaultErgonomics": null,
+          "defaultRecoilVertical": null,
+          "defaultRecoilHorizontal": null,
+          "defaultWeight": null,
+          "defaultAmmo": "62330b3ed4dc74626d570b95"
+        },
+        "minLevelForFlea": 0,
+        "maxDurability": 100,
+        "ergonomicsModifier": 80,
+        "stackMaxSize": 1,
+        "velocity": 20,
+        "hasGrid": false,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
+      },
+      "5f06d6e1475d472556679d16": {
+        "id": "5f06d6e1475d472556679d16",
+        "name": "5f06d6e1475d472556679d16 Name",
+        "shortName": "5f06d6e1475d472556679d16 ShortName",
+        "normalizedName": "fn40gl-mk2-40mm-grenade-launcher-default",
+        "updated": "2025-12-03T12:33:38.000Z",
+        "width": 3,
+        "height": 2,
+        "weight": 3,
+        "lastOfferCount": null,
+        "types": [
+          "noFlea",
+          "preset"
+        ],
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN40GL_Mk2_40mm_grenade_launcher",
+        "link": "https://tarkov.dev/item/fn40gl-mk2-40mm-grenade-launcher-default",
+        "iconLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-icon.webp",
+        "gridImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-grid-image.webp",
+        "baseImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-base-image.webp",
+        "inspectImageLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-image.webp",
+        "image512pxLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-512.webp",
+        "image8xLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-8x.webp",
+        "containsItems": [
+          {
+            "item": "5e81ebcd8e146c7080625e15",
+            "count": 1,
+            "attributes": {}
+          },
+          {
+            "item": "571659bb2459771fb2755a12",
+            "count": 1,
+            "attributes": {}
+          }
+        ],
+        "discardLimit": -1,
+        "basePrice": 111599,
+        "categories": [
+          "5447bedf4bdc2d87278b4568",
+          "5422acb9af1c889c16000029",
+          "566162e44bdc2d3f298b4573",
+          "54009119af1c881c07000029"
+        ],
+        "handbookCategories": [
+          "5b5f79d186f774093f2ed3c2",
+          "5b5f78dc86f77409407a7f8e"
+        ],
+        "lastLowPrice": null,
+        "avg24hPrice": null,
+        "high24hPrice": null,
+        "changeLast48h": null,
+        "changeLast48hPercent": null,
+        "lastScan": null,
+        "properties": {
+          "propertiesType": "ItemPropertiesPreset",
+          "ergonomics": 54,
+          "recoilVertical": 228,
+          "recoilHorizontal": 455,
+          "moa": 24.07,
+          "default": true,
+          "baseItem": "5e81ebcd8e146c7080625e15"
+        },
+        "minLevelForFlea": 0,
+        "backgroundColor": "black",
+        "conflictingItems": [],
+        "conflictingSlotIds": [],
+        "conflictingCategories": [],
+        "buyFromTrader": []
       }
     },
     "itemCategories": {
@@ -1302,6 +1837,27 @@
         "name": "5a2c3a9486f774688b05e574 Name",
         "normalizedName": "night-vision",
         "parent": "55818aeb4bdc2ddc698b456a",
+        "children": []
+      },
+      "5447bedf4bdc2d87278b4568": {
+        "id": "5447bedf4bdc2d87278b4568",
+        "name": "5447bedf4bdc2d87278b4568 Name",
+        "normalizedName": "grenade-launcher",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      },
+      "617f1ef5e8b54b0998387733": {
+        "id": "617f1ef5e8b54b0998387733",
+        "name": "617f1ef5e8b54b0998387733 Name",
+        "normalizedName": "revolver",
+        "parent": "5422acb9af1c889c16000029",
+        "children": []
+      },
+      "67446d4f04141c10630604e7": {
+        "id": "67446d4f04141c10630604e7",
+        "name": "67446d4f04141c10630604e7 Name",
+        "normalizedName": "rocket-launcher",
+        "parent": "5422acb9af1c889c16000029",
         "children": []
       }
     }

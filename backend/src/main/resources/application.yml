@@ -27,3 +27,10 @@ management:
 gunsmith:
   tarkov-dev:
     base-url: https://json.tarkov.dev
+  game-data:
+    # Launchers and other special weapons get no builds (SPEC §1.1). Ids are json.tarkov.dev ids.
+    excluded-weapon-categories:
+      - 5447bedf4bdc2d87278b4568 # Grenade launcher (incl. signal pistols and RSP/ROP flare cartridges)
+      - 67446d4f04141c10630604e7 # Rocket launcher
+    excluded-weapons:
+      - 6275303a9f372d6ea97f9ec7 # Milkor M32A1 MSGL, filed under Revolver

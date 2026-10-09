@@ -46,6 +46,19 @@
     "MOD_MUZZLE": "Muzzle",
     "MOD_RECIEVER": "Receiver",
     "MOD_SIGHT_REAR": "Rear Sight",
-    "MOD_STOCK": "Stock"
+    "MOD_STOCK": "Stock",
+    "5e81ebcd8e146c7080625e15 Name": "FN40GL Mk2 40mm grenade launcher",
+    "5e81ebcd8e146c7080625e15 ShortName": "FN40GL",
+    "5447bedf4bdc2d87278b4568 Name": "Grenade launcher",
+    "6275303a9f372d6ea97f9ec7 Name": "Milkor M32A1 MSGL 40mm grenade launcher",
+    "6275303a9f372d6ea97f9ec7 ShortName": "MSGL",
+    "617f1ef5e8b54b0998387733 Name": "Revolver",
+    "676bf44c5539167c3603e869 Name": "RShG-2 72.5mm rocket launcher",
+    "676bf44c5539167c3603e869 ShortName": "RShG-2",
+    "67446d4f04141c10630604e7 Name": "Rocket Launcher",
+    "61a4c8884f95bc3b2c5dc96f Name": "Chiappa Rhino 50DS .357 revolver",
+    "61a4c8884f95bc3b2c5dc96f ShortName": "CR 50DS",
+    "5f06d6e1475d472556679d16 Name": "FN40GL Mk2 40mm grenade launcher Default",
+    "5f06d6e1475d472556679d16 ShortName": "FN40GL Default"
   }
 }
